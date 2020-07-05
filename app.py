@@ -5,6 +5,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return ("Hello")
+    return ("<HTML><BODY>Hello</BODY></HTML>")
     
 app.run(debug=True)
